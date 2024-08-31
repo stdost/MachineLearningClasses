@@ -1,0 +1,6 @@
+After sampling 300 2-dimensional data points from a 2-D normal distribution with mean [-1, 2] and SD = 2, the estimate for the mean does NOT precisely equal [-1,2], though it will be close to those values.  
+To get a closer estimate:
+1) we can sample a lot more points - I.e increase n (as n goes toward infinity, the estimate for the mean converges towards the true mean)
+2) if we had control over the variance of the distribution, we can reduce the variance (or standard deviation) - the smaller the variance, the closer the estimate for the mean will be to the true mean.
+
+
